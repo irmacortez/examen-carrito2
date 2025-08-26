@@ -2,19 +2,20 @@
   "name": "examen-carrito2",
   "version": "1.0.0",
   "description": "Administracion carrito",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start":"node dist/index.js" 
+    "start":"node dist/index.js",
+    "dev": "tsc && node dist /carrito2" 
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irmacortez/examen-carrito2.git"
   },
-  "keywords": [],
+  "keywords": ["carrito","gestion","productos"],
   "author": "Irma",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/irmacortez/examen-carrito2/issues"
   },
