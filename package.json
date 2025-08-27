@@ -16,6 +16,9 @@
   "keywords": ["carrito","gestion","productos"],
   "author": "Irma",
   "license": "MIT",
+  "devDependencies": {
+  "typescript": "5.9.2"
+  },
   "bugs": {
     "url": "https://github.com/irmacortez/examen-carrito2/issues"
   },
